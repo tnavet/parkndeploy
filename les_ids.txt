@@ -1,0 +1,11 @@
+Client ID
+:
+ac94bbfb-a942-46c1-addf-1e5f220da02a
+
+
+Subscription ID
+:
+d485826f-2eb6-46dd-a7e5-ff62b4ad41c5
+
+
+Tenant ID : 5e91bbd4-d89d-4346-8864-cdfc0c8d9d80
