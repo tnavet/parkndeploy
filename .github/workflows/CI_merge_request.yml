@@ -12,7 +12,6 @@ env:
   AZURE_RG_NAME: rg-${{ vars.PROJECT_NAME }}-${{ vars.AZURE_RESOURCE_IDENTIFIER }}
 jobs: 
  frontend_ci:
-    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
 
     defaults:
