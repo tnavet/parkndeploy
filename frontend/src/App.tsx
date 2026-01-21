@@ -31,6 +31,11 @@ function App() {
       {isPending && <LoadingSpinner className="mr-2 h-4 w-4 animate-spin" />}
       {isError && <span>Something went wrong with the backend ...</span>}
       {data && <ParkingList parkings={data.parkings} />}
+      <footer className="mt-5">
+        <p className="text-sm text-center">
+          App Version: {APP_VERSION}
+        </p>
+      </footer>
     </div>
   );
 }
